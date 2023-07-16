@@ -28,7 +28,7 @@ use App\Http\Controllers\KategoriProdukController;
           DataTable Example
       </div>
       <div class="card-body">
-          <table id="datatablesSimple">
+          <table id="tableKategori">
               <thead>
                   <tr>
                     <th>No</th>

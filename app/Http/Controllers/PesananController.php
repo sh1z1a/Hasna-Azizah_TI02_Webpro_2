@@ -14,6 +14,7 @@ class PesananController extends Controller
      */
     public function index()
     {
+
         //query builder
         $pesanan = DB::table('pesanan')
         ->join('produk', 'pesanan.produk_id', '=', 'produk.id')

@@ -15,7 +15,7 @@ class KategoriProdukController extends Controller
      */
     public function index()
     {
-        //query builderl
+        //query builder
         $kategori_produk = DB::table('kategori_produk')->get();
         return view('admin.kategori.index', compact('kategori_produk'));
         //compact berfungsi mengumpulkan pada membuat array yang akan dipanggil didalam view

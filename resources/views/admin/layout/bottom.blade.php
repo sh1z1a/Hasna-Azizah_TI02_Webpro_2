@@ -1,4 +1,4 @@
- <footer class="py-4 bg-light mt-auto">
+    <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
                             <div class="text-muted">Copyright &copy; Your Website 2022</div>
@@ -20,5 +20,8 @@
         <script src="{{ asset('admin/assets/demo/chart-bar-demo.js') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
         <script src="{{ asset('admin/js/datatables-simple-demo.js') }}"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.js"></script>
+
     </body>
 </html>
